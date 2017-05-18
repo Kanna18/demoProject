@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34DD4F113C189970F432E6BF /* libPods-ESKART_APP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E16B91F1C32734E2C45901E /* libPods-ESKART_APP.a */; };
+		F61A70D61EC6F499006E9E9B /* GLViewPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F61A70D51EC6F499006E9E9B /* GLViewPagerViewController.m */; };
+		F61EC8AC1EAC938E005A9A29 /* MainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F61EC8AB1EAC938E005A9A29 /* MainCollectionViewController.m */; };
+		F61EC8AF1EAC93E4005A9A29 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F61EC8AE1EAC93E4005A9A29 /* MenuTableViewController.m */; };
+		F61EC8B21EAC9487005A9A29 /* CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F61EC8B11EAC9487005A9A29 /* CustomNavigationBar.m */; };
+		F61EC8B41EAC94A4005A9A29 /* CustomNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = F61EC8B31EAC94A4005A9A29 /* CustomNavigationBar.xib */; };
+		F61EC8B71EACC443005A9A29 /* ServerAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F61EC8B61EACC443005A9A29 /* ServerAPIManager.m */; };
+		F62B1CC21ECC14DA00EE9433 /* EskartSharedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F62B1CC11ECC14DA00EE9433 /* EskartSharedClass.m */; };
+		F64F62451EC8D238008E6040 /* MainCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = F64F62441EC8D238008E6040 /* MainCellData.m */; };
+		F66580F61EBC96AB00CF5079 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F66580F51EBC96AB00CF5079 /* ProductCell.m */; };
+		F66580FA1EBCD70F00CF5079 /* OffersProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66580F91EBCD70F00CF5079 /* OffersProductController.m */; };
+		F66580FE1EBDF45D00CF5079 /* demo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F66580FC1EBDF45D00CF5079 /* demo2.jpg */; };
+		F66580FF1EBDF45D00CF5079 /* demoImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F66580FD1EBDF45D00CF5079 /* demoImg.jpg */; };
+		F66581011EBDF62800CF5079 /* profileBkgnd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F66581001EBDF62800CF5079 /* profileBkgnd.jpg */; };
+		F66581031EBDF94A00CF5079 /* demo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F66581021EBDF94A00CF5079 /* demo3.jpg */; };
+		F665811A1EBF9D4C00CF5079 /* CountView.m in Sources */ = {isa = PBXBuildFile; fileRef = F66581191EBF9D4C00CF5079 /* CountView.m */; };
+		F665811C1EBF9D8700CF5079 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = F665811B1EBF9D8700CF5079 /* View.xib */; };
+		F6695FEC1EBA4BD7005F510C /* ProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6695FEB1EBA4BD7005F510C /* ProfileTableViewCell.m */; };
+		F6A8B12E1EA3A8400043B060 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A8B12D1EA3A8400043B060 /* main.m */; };
+		F6A8B1311EA3A8400043B060 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A8B1301EA3A8400043B060 /* AppDelegate.m */; };
+		F6A8B13A1EA3A8400043B060 /* ESKART_APP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6A8B1381EA3A8400043B060 /* ESKART_APP.xcdatamodeld */; };
+		F6A8B13C1EA3A8400043B060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A8B13B1EA3A8400043B060 /* Assets.xcassets */; };
+		F6A8B13F1EA3A8400043B060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A8B13D1EA3A8400043B060 /* LaunchScreen.storyboard */; };
+		F6A8B14A1EA3A8400043B060 /* ESKART_APPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A8B1491EA3A8400043B060 /* ESKART_APPTests.m */; };
+		F6A8B1551EA3A8400043B060 /* ESKART_APPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A8B1541EA3A8400043B060 /* ESKART_APPUITests.m */; };
+		F6A8B1671EA3A85E0043B060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A8B1661EA3A85E0043B060 /* Main.storyboard */; };
+		F6A8B16A1EA3A86E0043B060 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A8B1691EA3A86E0043B060 /* ViewController.m */; };
+		F6C1C1DD1ECB6E0D00176604 /* ProductDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1C1DC1ECB6E0D00176604 /* ProductDetail.m */; };
+		F6C1C1E01ECB6E2C00176604 /* ProductDetailTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1C1DF1ECB6E2C00176604 /* ProductDetailTableController.m */; };
+		F6C484B81EAFD618002607F7 /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C484B71EAFD618002607F7 /* HomeCollectionViewCell.m */; };
+		F6CCD3671ECA1418005AB89A /* ProductCellDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CCD3661ECA1418005AB89A /* ProductCellDataModel.m */; };
+		F6CCD36B1ECA250D005AB89A /* TabbarDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CCD36A1ECA250D005AB89A /* TabbarDataModel.m */; };
+		F6E40CDF1EBAF8D400725343 /* OffersCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E40CDE1EBAF8D400725343 /* OffersCollectionViewCell.m */; };
+		F6E40CE31EBAFED000725343 /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E40CE21EBAFED000725343 /* MyAccountViewController.m */; };
+		F6E40CF21EBBA73700725343 /* SearchByCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E40CF11EBBA73700725343 /* SearchByCategoryController.m */; };
+		F6E40CF61EBBABAC00725343 /* CategoryListTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E40CF51EBBABAC00725343 /* CategoryListTableController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6A8B1461EA3A8400043B060 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6A8B1211EA3A8400043B060 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6A8B1281EA3A8400043B060;
+			remoteInfo = ESKART_APP;
+		};
+		F6A8B1511EA3A8400043B060 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6A8B1211EA3A8400043B060 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6A8B1281EA3A8400043B060;
+			remoteInfo = ESKART_APP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0615A2BF8D8E35A837979787 /* Pods-ESKART_APP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESKART_APP.release.xcconfig"; path = "Pods/Target Support Files/Pods-ESKART_APP/Pods-ESKART_APP.release.xcconfig"; sourceTree = "<group>"; };
+		3E16B91F1C32734E2C45901E /* libPods-ESKART_APP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ESKART_APP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		837E6E93B7188D158DB9C9C5 /* Pods-ESKART_APP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESKART_APP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ESKART_APP/Pods-ESKART_APP.debug.xcconfig"; sourceTree = "<group>"; };
+		F61A70D41EC6F499006E9E9B /* GLViewPagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLViewPagerViewController.h; sourceTree = "<group>"; };
+		F61A70D51EC6F499006E9E9B /* GLViewPagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLViewPagerViewController.m; sourceTree = "<group>"; };
+		F61EC8AA1EAC938E005A9A29 /* MainCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewController.h; sourceTree = "<group>"; };
+		F61EC8AB1EAC938E005A9A29 /* MainCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewController.m; sourceTree = "<group>"; };
+		F61EC8AD1EAC93E4005A9A29 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		F61EC8AE1EAC93E4005A9A29 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		F61EC8B01EAC9487005A9A29 /* CustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationBar.h; sourceTree = "<group>"; };
+		F61EC8B11EAC9487005A9A29 /* CustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationBar.m; sourceTree = "<group>"; };
+		F61EC8B31EAC94A4005A9A29 /* CustomNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomNavigationBar.xib; sourceTree = "<group>"; };
+		F61EC8B51EACC443005A9A29 /* ServerAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerAPIManager.h; sourceTree = "<group>"; };
+		F61EC8B61EACC443005A9A29 /* ServerAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerAPIManager.m; sourceTree = "<group>"; };
+		F62B1CC01ECC14DA00EE9433 /* EskartSharedClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EskartSharedClass.h; sourceTree = "<group>"; };
+		F62B1CC11ECC14DA00EE9433 /* EskartSharedClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EskartSharedClass.m; sourceTree = "<group>"; };
+		F64F62431EC8D238008E6040 /* MainCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCellData.h; sourceTree = "<group>"; };
+		F64F62441EC8D238008E6040 /* MainCellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCellData.m; sourceTree = "<group>"; };
+		F66580F41EBC96AB00CF5079 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		F66580F51EBC96AB00CF5079 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		F66580F81EBCD70F00CF5079 /* OffersProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersProductController.h; sourceTree = "<group>"; };
+		F66580F91EBCD70F00CF5079 /* OffersProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersProductController.m; sourceTree = "<group>"; };
+		F66580FC1EBDF45D00CF5079 /* demo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo2.jpg; sourceTree = "<group>"; };
+		F66580FD1EBDF45D00CF5079 /* demoImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demoImg.jpg; sourceTree = "<group>"; };
+		F66581001EBDF62800CF5079 /* profileBkgnd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profileBkgnd.jpg; sourceTree = "<group>"; };
+		F66581021EBDF94A00CF5079 /* demo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo3.jpg; sourceTree = "<group>"; };
+		F66581191EBF9D4C00CF5079 /* CountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountView.m; sourceTree = "<group>"; };
+		F665811B1EBF9D8700CF5079 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		F665811D1EBF9D9B00CF5079 /* CountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountView.h; sourceTree = "<group>"; };
+		F6695FEA1EBA4BD7005F510C /* ProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewCell.h; sourceTree = "<group>"; };
+		F6695FEB1EBA4BD7005F510C /* ProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewCell.m; sourceTree = "<group>"; };
+		F6A8B1291EA3A8400043B060 /* ESKART_APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESKART_APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A8B12D1EA3A8400043B060 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6A8B12F1EA3A8400043B060 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6A8B1301EA3A8400043B060 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6A8B1391EA3A8400043B060 /* ESKART_APP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ESKART_APP.xcdatamodel; sourceTree = "<group>"; };
+		F6A8B13B1EA3A8400043B060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6A8B13E1EA3A8400043B060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6A8B1401EA3A8400043B060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A8B1451EA3A8400043B060 /* ESKART_APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESKART_APPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A8B1491EA3A8400043B060 /* ESKART_APPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESKART_APPTests.m; sourceTree = "<group>"; };
+		F6A8B14B1EA3A8400043B060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A8B1501EA3A8400043B060 /* ESKART_APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESKART_APPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A8B1541EA3A8400043B060 /* ESKART_APPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESKART_APPUITests.m; sourceTree = "<group>"; };
+		F6A8B1561EA3A8400043B060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A8B1661EA3A85E0043B060 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F6A8B1681EA3A86E0043B060 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6A8B1691EA3A86E0043B060 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6C1C1DB1ECB6E0D00176604 /* ProductDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetail.h; sourceTree = "<group>"; };
+		F6C1C1DC1ECB6E0D00176604 /* ProductDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetail.m; sourceTree = "<group>"; };
+		F6C1C1DE1ECB6E2C00176604 /* ProductDetailTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailTableController.h; sourceTree = "<group>"; };
+		F6C1C1DF1ECB6E2C00176604 /* ProductDetailTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailTableController.m; sourceTree = "<group>"; };
+		F6C484B61EAFD618002607F7 /* HomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewCell.h; sourceTree = "<group>"; };
+		F6C484B71EAFD618002607F7 /* HomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewCell.m; sourceTree = "<group>"; };
+		F6CCD3651ECA1418005AB89A /* ProductCellDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCellDataModel.h; sourceTree = "<group>"; };
+		F6CCD3661ECA1418005AB89A /* ProductCellDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCellDataModel.m; sourceTree = "<group>"; };
+		F6CCD3691ECA250D005AB89A /* TabbarDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarDataModel.h; sourceTree = "<group>"; };
+		F6CCD36A1ECA250D005AB89A /* TabbarDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarDataModel.m; sourceTree = "<group>"; };
+		F6E40CDD1EBAF8D400725343 /* OffersCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersCollectionViewCell.h; sourceTree = "<group>"; };
+		F6E40CDE1EBAF8D400725343 /* OffersCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersCollectionViewCell.m; sourceTree = "<group>"; };
+		F6E40CE11EBAFED000725343 /* MyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountViewController.h; sourceTree = "<group>"; };
+		F6E40CE21EBAFED000725343 /* MyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountViewController.m; sourceTree = "<group>"; };
+		F6E40CF01EBBA73700725343 /* SearchByCategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchByCategoryController.h; sourceTree = "<group>"; };
+		F6E40CF11EBBA73700725343 /* SearchByCategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchByCategoryController.m; sourceTree = "<group>"; };
+		F6E40CF41EBBABAC00725343 /* CategoryListTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryListTableController.h; sourceTree = "<group>"; };
+		F6E40CF51EBBABAC00725343 /* CategoryListTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryListTableController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6A8B1261EA3A8400043B060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DD4F113C189970F432E6BF /* libPods-ESKART_APP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A8B1421EA3A8400043B060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A8B14D1EA3A8400043B060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		660FEEFC6D424A14D2D7C006 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E16B91F1C32734E2C45901E /* libPods-ESKART_APP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9076FCBDEF1BCB9ECD210537 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				837E6E93B7188D158DB9C9C5 /* Pods-ESKART_APP.debug.xcconfig */,
+				0615A2BF8D8E35A837979787 /* Pods-ESKART_APP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F61A70D31EC6F47C006E9E9B /* GLViewPagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F61A70D41EC6F499006E9E9B /* GLViewPagerViewController.h */,
+				F61A70D51EC6F499006E9E9B /* GLViewPagerViewController.m */,
+			);
+			name = GLViewPagerViewController;
+			sourceTree = "<group>";
+		};
+		F61EC8B81EACC44A005A9A29 /* ServerAPI */ = {
+			isa = PBXGroup;
+			children = (
+				F61EC8B51EACC443005A9A29 /* ServerAPIManager.h */,
+				F61EC8B61EACC443005A9A29 /* ServerAPIManager.m */,
+			);
+			name = ServerAPI;
+			sourceTree = "<group>";
+		};
+		F64F62461EC8D241008E6040 /* MainCellDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				F64F62431EC8D238008E6040 /* MainCellData.h */,
+				F64F62441EC8D238008E6040 /* MainCellData.m */,
+			);
+			name = MainCellDataModel;
+			sourceTree = "<group>";
+		};
+		F66580F31EBC943700CF5079 /* CountViewXIb */ = {
+			isa = PBXGroup;
+			children = (
+				F665811D1EBF9D9B00CF5079 /* CountView.h */,
+				F66581191EBF9D4C00CF5079 /* CountView.m */,
+				F665811B1EBF9D8700CF5079 /* View.xib */,
+			);
+			name = CountViewXIb;
+			sourceTree = "<group>";
+		};
+		F66580F71EBC96AF00CF5079 /* ProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				F66580F41EBC96AB00CF5079 /* ProductCell.h */,
+				F66580F51EBC96AB00CF5079 /* ProductCell.m */,
+			);
+			name = ProductCell;
+			sourceTree = "<group>";
+		};
+		F66580FB1EBCD71600CF5079 /* OffersProduct */ = {
+			isa = PBXGroup;
+			children = (
+				F66580F81EBCD70F00CF5079 /* OffersProductController.h */,
+				F66580F91EBCD70F00CF5079 /* OffersProductController.m */,
+			);
+			name = OffersProduct;
+			sourceTree = "<group>";
+		};
+		F6695FE91EBA4BB0005F510C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F61EC8AD1EAC93E4005A9A29 /* MenuTableViewController.h */,
+				F61EC8AE1EAC93E4005A9A29 /* MenuTableViewController.m */,
+				F6E40CDB1EBAF76100725343 /* ProfileCell */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		F6695FED1EBA530C005F510C /* CustomNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				F61EC8B31EAC94A4005A9A29 /* CustomNavigationBar.xib */,
+				F61EC8B01EAC9487005A9A29 /* CustomNavigationBar.h */,
+				F61EC8B11EAC9487005A9A29 /* CustomNavigationBar.m */,
+			);
+			name = CustomNavigation;
+			sourceTree = "<group>";
+		};
+		F6802A891EBC7E7B00E048C9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F6A8B1681EA3A86E0043B060 /* ViewController.h */,
+				F6A8B1691EA3A86E0043B060 /* ViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		F6802A8D1EBC7EE300E048C9 /* ProductListTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F6C1C1DB1ECB6E0D00176604 /* ProductDetail.h */,
+				F6C1C1DC1ECB6E0D00176604 /* ProductDetail.m */,
+				F6C1C1DE1ECB6E2C00176604 /* ProductDetailTableController.h */,
+				F6C1C1DF1ECB6E2C00176604 /* ProductDetailTableController.m */,
+				F66580F71EBC96AF00CF5079 /* ProductCell */,
+			);
+			name = ProductListTableView;
+			sourceTree = "<group>";
+		};
+		F6A8B1201EA3A8400043B060 = {
+			isa = PBXGroup;
+			children = (
+				F61EC8B81EACC44A005A9A29 /* ServerAPI */,
+				F6A8B12B1EA3A8400043B060 /* ESKART_APP */,
+				F6A8B1481EA3A8400043B060 /* ESKART_APPTests */,
+				F6A8B1531EA3A8400043B060 /* ESKART_APPUITests */,
+				F6A8B12A1EA3A8400043B060 /* Products */,
+				9076FCBDEF1BCB9ECD210537 /* Pods */,
+				660FEEFC6D424A14D2D7C006 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6A8B12A1EA3A8400043B060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6A8B1291EA3A8400043B060 /* ESKART_APP.app */,
+				F6A8B1451EA3A8400043B060 /* ESKART_APPTests.xctest */,
+				F6A8B1501EA3A8400043B060 /* ESKART_APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6A8B12B1EA3A8400043B060 /* ESKART_APP */ = {
+			isa = PBXGroup;
+			children = (
+				F66580FC1EBDF45D00CF5079 /* demo2.jpg */,
+				F66581001EBDF62800CF5079 /* profileBkgnd.jpg */,
+				F66580FD1EBDF45D00CF5079 /* demoImg.jpg */,
+				F66581021EBDF94A00CF5079 /* demo3.jpg */,
+				F6A8B12F1EA3A8400043B060 /* AppDelegate.h */,
+				F6A8B1301EA3A8400043B060 /* AppDelegate.m */,
+				F62B1CC01ECC14DA00EE9433 /* EskartSharedClass.h */,
+				F62B1CC11ECC14DA00EE9433 /* EskartSharedClass.m */,
+				F61A70D31EC6F47C006E9E9B /* GLViewPagerViewController */,
+				F6802A891EBC7E7B00E048C9 /* Login */,
+				F6695FED1EBA530C005F510C /* CustomNavigation */,
+				F6695FE91EBA4BB0005F510C /* Menu */,
+				F6C484B51EAFD5C0002607F7 /* Home */,
+				F6E40CF31EBBA73E00725343 /* SearchByCategory */,
+				F6E40CF71EBBABB400725343 /* CategoryList */,
+				F66580FB1EBCD71600CF5079 /* OffersProduct */,
+				F6E40CEF1EBB970D00725343 /* MY Account */,
+				F6802A8D1EBC7EE300E048C9 /* ProductListTableView */,
+				F6CCD3681ECA141D005AB89A /* ProductCellDataModel */,
+				F66580F31EBC943700CF5079 /* CountViewXIb */,
+				F6A8B1661EA3A85E0043B060 /* Main.storyboard */,
+				F6A8B13B1EA3A8400043B060 /* Assets.xcassets */,
+				F6A8B13D1EA3A8400043B060 /* LaunchScreen.storyboard */,
+				F6A8B1401EA3A8400043B060 /* Info.plist */,
+				F6A8B1381EA3A8400043B060 /* ESKART_APP.xcdatamodeld */,
+				F6A8B12C1EA3A8400043B060 /* Supporting Files */,
+			);
+			path = ESKART_APP;
+			sourceTree = "<group>";
+		};
+		F6A8B12C1EA3A8400043B060 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6A8B12D1EA3A8400043B060 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6A8B1481EA3A8400043B060 /* ESKART_APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6A8B1491EA3A8400043B060 /* ESKART_APPTests.m */,
+				F6A8B14B1EA3A8400043B060 /* Info.plist */,
+			);
+			path = ESKART_APPTests;
+			sourceTree = "<group>";
+		};
+		F6A8B1531EA3A8400043B060 /* ESKART_APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6A8B1541EA3A8400043B060 /* ESKART_APPUITests.m */,
+				F6A8B1561EA3A8400043B060 /* Info.plist */,
+			);
+			path = ESKART_APPUITests;
+			sourceTree = "<group>";
+		};
+		F6C484B51EAFD5C0002607F7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F61EC8AA1EAC938E005A9A29 /* MainCollectionViewController.h */,
+				F61EC8AB1EAC938E005A9A29 /* MainCollectionViewController.m */,
+				F64F62461EC8D241008E6040 /* MainCellDataModel */,
+				F6E40CDC1EBAF76C00725343 /* CollectionViewCELL */,
+				F6E40CE01EBAF8DE00725343 /* OffersCollectionViewCell */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		F6CCD3681ECA141D005AB89A /* ProductCellDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				F6CCD3651ECA1418005AB89A /* ProductCellDataModel.h */,
+				F6CCD3661ECA1418005AB89A /* ProductCellDataModel.m */,
+				F6CCD3691ECA250D005AB89A /* TabbarDataModel.h */,
+				F6CCD36A1ECA250D005AB89A /* TabbarDataModel.m */,
+			);
+			name = ProductCellDataModel;
+			sourceTree = "<group>";
+		};
+		F6E40CDB1EBAF76100725343 /* ProfileCell */ = {
+			isa = PBXGroup;
+			children = (
+				F6695FEA1EBA4BD7005F510C /* ProfileTableViewCell.h */,
+				F6695FEB1EBA4BD7005F510C /* ProfileTableViewCell.m */,
+			);
+			name = ProfileCell;
+			sourceTree = "<group>";
+		};
+		F6E40CDC1EBAF76C00725343 /* CollectionViewCELL */ = {
+			isa = PBXGroup;
+			children = (
+				F6C484B61EAFD618002607F7 /* HomeCollectionViewCell.h */,
+				F6C484B71EAFD618002607F7 /* HomeCollectionViewCell.m */,
+			);
+			name = CollectionViewCELL;
+			sourceTree = "<group>";
+		};
+		F6E40CE01EBAF8DE00725343 /* OffersCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F6E40CDD1EBAF8D400725343 /* OffersCollectionViewCell.h */,
+				F6E40CDE1EBAF8D400725343 /* OffersCollectionViewCell.m */,
+			);
+			name = OffersCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		F6E40CEF1EBB970D00725343 /* MY Account */ = {
+			isa = PBXGroup;
+			children = (
+				F6E40CE11EBAFED000725343 /* MyAccountViewController.h */,
+				F6E40CE21EBAFED000725343 /* MyAccountViewController.m */,
+			);
+			name = "MY Account";
+			sourceTree = "<group>";
+		};
+		F6E40CF31EBBA73E00725343 /* SearchByCategory */ = {
+			isa = PBXGroup;
+			children = (
+				F6E40CF01EBBA73700725343 /* SearchByCategoryController.h */,
+				F6E40CF11EBBA73700725343 /* SearchByCategoryController.m */,
+			);
+			name = SearchByCategory;
+			sourceTree = "<group>";
+		};
+		F6E40CF71EBBABB400725343 /* CategoryList */ = {
+			isa = PBXGroup;
+			children = (
+				F6E40CF41EBBABAC00725343 /* CategoryListTableController.h */,
+				F6E40CF51EBBABAC00725343 /* CategoryListTableController.m */,
+			);
+			name = CategoryList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6A8B1281EA3A8400043B060 /* ESKART_APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A8B1591EA3A8400043B060 /* Build configuration list for PBXNativeTarget "ESKART_APP" */;
+			buildPhases = (
+				AD21679EA423956A9C184EA3 /* [CP] Check Pods Manifest.lock */,
+				F6A8B1251EA3A8400043B060 /* Sources */,
+				F6A8B1261EA3A8400043B060 /* Frameworks */,
+				F6A8B1271EA3A8400043B060 /* Resources */,
+				1E9B0414C61D4299C7ACA736 /* [CP] Embed Pods Frameworks */,
+				B5B98DE21A8416F7021ADC16 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESKART_APP;
+			productName = ESKART_APP;
+			productReference = F6A8B1291EA3A8400043B060 /* ESKART_APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6A8B1441EA3A8400043B060 /* ESKART_APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A8B15C1EA3A8400043B060 /* Build configuration list for PBXNativeTarget "ESKART_APPTests" */;
+			buildPhases = (
+				F6A8B1411EA3A8400043B060 /* Sources */,
+				F6A8B1421EA3A8400043B060 /* Frameworks */,
+				F6A8B1431EA3A8400043B060 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6A8B1471EA3A8400043B060 /* PBXTargetDependency */,
+			);
+			name = ESKART_APPTests;
+			productName = ESKART_APPTests;
+			productReference = F6A8B1451EA3A8400043B060 /* ESKART_APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6A8B14F1EA3A8400043B060 /* ESKART_APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A8B15F1EA3A8400043B060 /* Build configuration list for PBXNativeTarget "ESKART_APPUITests" */;
+			buildPhases = (
+				F6A8B14C1EA3A8400043B060 /* Sources */,
+				F6A8B14D1EA3A8400043B060 /* Frameworks */,
+				F6A8B14E1EA3A8400043B060 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6A8B1521EA3A8400043B060 /* PBXTargetDependency */,
+			);
+			name = ESKART_APPUITests;
+			productName = ESKART_APPUITests;
+			productReference = F6A8B1501EA3A8400043B060 /* ESKART_APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6A8B1211EA3A8400043B060 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Gaian;
+				TargetAttributes = {
+					F6A8B1281EA3A8400043B060 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AYEU8SS399;
+						ProvisioningStyle = Automatic;
+					};
+					F6A8B1441EA3A8400043B060 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AYEU8SS399;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6A8B1281EA3A8400043B060;
+					};
+					F6A8B14F1EA3A8400043B060 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AYEU8SS399;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6A8B1281EA3A8400043B060;
+					};
+				};
+			};
+			buildConfigurationList = F6A8B1241EA3A8400043B060 /* Build configuration list for PBXProject "ESKART_APP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6A8B1201EA3A8400043B060;
+			productRefGroup = F6A8B12A1EA3A8400043B060 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6A8B1281EA3A8400043B060 /* ESKART_APP */,
+				F6A8B1441EA3A8400043B060 /* ESKART_APPTests */,
+				F6A8B14F1EA3A8400043B060 /* ESKART_APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6A8B1271EA3A8400043B060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A8B13F1EA3A8400043B060 /* LaunchScreen.storyboard in Resources */,
+				F66580FE1EBDF45D00CF5079 /* demo2.jpg in Resources */,
+				F6A8B1671EA3A85E0043B060 /* Main.storyboard in Resources */,
+				F61EC8B41EAC94A4005A9A29 /* CustomNavigationBar.xib in Resources */,
+				F66580FF1EBDF45D00CF5079 /* demoImg.jpg in Resources */,
+				F66581011EBDF62800CF5079 /* profileBkgnd.jpg in Resources */,
+				F66581031EBDF94A00CF5079 /* demo3.jpg in Resources */,
+				F665811C1EBF9D8700CF5079 /* View.xib in Resources */,
+				F6A8B13C1EA3A8400043B060 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A8B1431EA3A8400043B060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A8B14E1EA3A8400043B060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E9B0414C61D4299C7ACA736 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESKART_APP/Pods-ESKART_APP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD21679EA423956A9C184EA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B5B98DE21A8416F7021ADC16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESKART_APP/Pods-ESKART_APP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6A8B1251EA3A8400043B060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E40CF21EBBA73700725343 /* SearchByCategoryController.m in Sources */,
+				F61EC8B21EAC9487005A9A29 /* CustomNavigationBar.m in Sources */,
+				F6C484B81EAFD618002607F7 /* HomeCollectionViewCell.m in Sources */,
+				F6E40CE31EBAFED000725343 /* MyAccountViewController.m in Sources */,
+				F61EC8B71EACC443005A9A29 /* ServerAPIManager.m in Sources */,
+				F62B1CC21ECC14DA00EE9433 /* EskartSharedClass.m in Sources */,
+				F6A8B13A1EA3A8400043B060 /* ESKART_APP.xcdatamodeld in Sources */,
+				F6A8B1311EA3A8400043B060 /* AppDelegate.m in Sources */,
+				F6CCD36B1ECA250D005AB89A /* TabbarDataModel.m in Sources */,
+				F6A8B16A1EA3A86E0043B060 /* ViewController.m in Sources */,
+				F6CCD3671ECA1418005AB89A /* ProductCellDataModel.m in Sources */,
+				F6A8B12E1EA3A8400043B060 /* main.m in Sources */,
+				F6E40CDF1EBAF8D400725343 /* OffersCollectionViewCell.m in Sources */,
+				F6E40CF61EBBABAC00725343 /* CategoryListTableController.m in Sources */,
+				F6695FEC1EBA4BD7005F510C /* ProfileTableViewCell.m in Sources */,
+				F64F62451EC8D238008E6040 /* MainCellData.m in Sources */,
+				F6C1C1E01ECB6E2C00176604 /* ProductDetailTableController.m in Sources */,
+				F66580FA1EBCD70F00CF5079 /* OffersProductController.m in Sources */,
+				F61A70D61EC6F499006E9E9B /* GLViewPagerViewController.m in Sources */,
+				F61EC8AF1EAC93E4005A9A29 /* MenuTableViewController.m in Sources */,
+				F6C1C1DD1ECB6E0D00176604 /* ProductDetail.m in Sources */,
+				F66580F61EBC96AB00CF5079 /* ProductCell.m in Sources */,
+				F665811A1EBF9D4C00CF5079 /* CountView.m in Sources */,
+				F61EC8AC1EAC938E005A9A29 /* MainCollectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A8B1411EA3A8400043B060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A8B14A1EA3A8400043B060 /* ESKART_APPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A8B14C1EA3A8400043B060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A8B1551EA3A8400043B060 /* ESKART_APPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6A8B1471EA3A8400043B060 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6A8B1281EA3A8400043B060 /* ESKART_APP */;
+			targetProxy = F6A8B1461EA3A8400043B060 /* PBXContainerItemProxy */;
+		};
+		F6A8B1521EA3A8400043B060 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6A8B1281EA3A8400043B060 /* ESKART_APP */;
+			targetProxy = F6A8B1511EA3A8400043B060 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6A8B13D1EA3A8400043B060 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A8B13E1EA3A8400043B060 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6A8B1571EA3A8400043B060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6A8B1581EA3A8400043B060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6A8B15A1EA3A8400043B060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837E6E93B7188D158DB9C9C5 /* Pods-ESKART_APP.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AYEU8SS399;
+				INFOPLIST_FILE = ESKART_APP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gaian.ESKART-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6A8B15B1EA3A8400043B060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0615A2BF8D8E35A837979787 /* Pods-ESKART_APP.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AYEU8SS399;
+				INFOPLIST_FILE = ESKART_APP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gaian.ESKART-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6A8B15D1EA3A8400043B060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AYEU8SS399;
+				INFOPLIST_FILE = ESKART_APPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gaian.ESKART-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESKART_APP.app/ESKART_APP";
+			};
+			name = Debug;
+		};
+		F6A8B15E1EA3A8400043B060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AYEU8SS399;
+				INFOPLIST_FILE = ESKART_APPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gaian.ESKART-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESKART_APP.app/ESKART_APP";
+			};
+			name = Release;
+		};
+		F6A8B1601EA3A8400043B060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AYEU8SS399;
+				INFOPLIST_FILE = ESKART_APPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gaian.ESKART-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ESKART_APP;
+			};
+			name = Debug;
+		};
+		F6A8B1611EA3A8400043B060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AYEU8SS399;
+				INFOPLIST_FILE = ESKART_APPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gaian.ESKART-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ESKART_APP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6A8B1241EA3A8400043B060 /* Build configuration list for PBXProject "ESKART_APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A8B1571EA3A8400043B060 /* Debug */,
+				F6A8B1581EA3A8400043B060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A8B1591EA3A8400043B060 /* Build configuration list for PBXNativeTarget "ESKART_APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A8B15A1EA3A8400043B060 /* Debug */,
+				F6A8B15B1EA3A8400043B060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A8B15C1EA3A8400043B060 /* Build configuration list for PBXNativeTarget "ESKART_APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A8B15D1EA3A8400043B060 /* Debug */,
+				F6A8B15E1EA3A8400043B060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A8B15F1EA3A8400043B060 /* Build configuration list for PBXNativeTarget "ESKART_APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A8B1601EA3A8400043B060 /* Debug */,
+				F6A8B1611EA3A8400043B060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6A8B1381EA3A8400043B060 /* ESKART_APP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6A8B1391EA3A8400043B060 /* ESKART_APP.xcdatamodel */,
+			);
+			currentVersion = F6A8B1391EA3A8400043B060 /* ESKART_APP.xcdatamodel */;
+			path = ESKART_APP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F6A8B1211EA3A8400043B060 /* Project object */;
+}
